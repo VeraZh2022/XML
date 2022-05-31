@@ -1,0 +1,84 @@
+<course Title="QualityAssurance">
+    <Lection Number="1" Title="Theory"> 
+        <Part Number="1">что такое тестирование</Part>
+        <Part Number="2">багрепорты</Part>
+        <Part Number="3">документация</Part>
+        <Part Number="4">виды</Part>
+        <Part Number="5">методы</Part>
+        <Part Number="6">направления тестирования</Part> 
+        <Part Number="7">SDLC</Part>
+        <Part Number="8">STLC</Part>
+    </Lection>
+    <Lection Number="2" Title="Что такое клиент-серверная архитектура"/>
+    <Lection Number="3" Title="HTTP Методы запросов на сервер"/>
+    <Lection Number="4" Title="Коды ответов HTTP сервера"/>
+    <Lection Number="5" Title="Структуры HTTP запросов и ответов"/>
+    <Lection Number="6" Title="API">
+        <Part Number="1">Что такое JSON, структура</Part> 
+        <Part Number="2">Что такое XML, структура</Part>
+    </Lection>   
+    <Lection Number="7" Title="Тестирование API через Postman (JS, автотесты API)"/>
+    <Lection Number="8" Title="Снятие и чтение логов c внешнего сервера"/>
+    <Lection Number="9" Title="Снифинг http web трафика">
+        <Part Number="1">через Charles</Part>
+        <Part Number="2">через Fiddler</Part>
+    </Lection> 
+    <Lection Number="10" Title="Dev Tools веб браузеров">
+        <Part Number="1">Google Chrome</Part>
+        <Part Number="2">FireFox</Part>
+    </Lection> 
+    <Lection Number="11" Title="VPN">
+        <Part Number="1">как работает</Part>
+        <Part Number="2">зачем нужен</Part>
+        <Part Number="3">как использовать</Part>
+        <Part Number="4">варианты инструментов</Part>
+    </Lection>    
+    <Lection Number="12" Title="Мобильное тестирование"/>
+    <Lection Number="13" Title="Операционные системы">
+        <Part Number="1">Особенность iOS</Part>
+        <Part Number="2">Особенность Android</Part>
+        <Part Number="3">Гайдлайны</Part>
+    </Lection>   
+    <Lection Number="14" Title="Сборка iOS приложений на XCode (у кого нет Mac компьютера, просто посмотрят)"/>
+    <Lection Number="15" Title="Сборка Android приложений на Android Studio"/>
+    <Lection Number="16" Title="ADB (управление андройд девайсами)"/>
+    <Lection Number="17" Title="Настройка прокси и vpn на iOS и Android"/>
+    <Lection Number="18" Title="Перехват (сниффинг) мобильного трафика">
+        <Part Number="1">через Charles и Fiddler на iOS</Part>
+        <Part Number="2">через Charles и Fiddler на Android</Part>
+    </Lection>    
+    <Lection Number="19" Title="Командная строка (terminal) Linux">
+        <Part Number="1">копирование</Part>
+        <Part Number="2">создание</Part>
+        <Part Number="3">просмотр</Part> 
+        <Part Number="4">перемещение файлов на серверах без графического интерфейса</Part>
+    </Lection>
+    <Lection Number="20" Title="Основы bash скриптинг, автоматизация рутинных задач на сервере"/>
+    <Lection Number="21" Title="Доступ к удалённым серверам"/>
+    <Lection Number="22" Title="Основы SQL">
+        <Part Number="1">CREATE</Part>
+        <Part Number="2">DELETE</Part> 
+        <Part Number="3">DROP</Part>
+        <Part Number="4">INSERT into</Part>
+        <Part Number="5">SELECT</Part>
+        <Part Number="6">FROM</Part>
+        <Part Number="7">WHERE</Part>
+        <Part Number="8">JOIN</Part>
+    </Lection>
+    <Lection Number="23" Title="База данных Postgres">
+        <Part Number="1">установка</Part>
+        <Part Number="2">настройка</Part>
+        <Part Number="3">использование</Part>
+    </Lection>
+    <Lection Number="24" Title="Нереляционная база данных Redis (установка, настройка и использование)">
+        <Part Number="1">установка</Part>
+        <Part Number="2">настройка</Part>
+        <Part Number="3">использование</Part>
+    </Lection>
+    <Lection Number="25" Title="Нагрузочное тестирование в Jmeter"/>
+    <Lection Number="26" Title="Методология разработки Scrum"/>
+    <Lection Number="27" Title="Python">
+        <Part Number="1">изучение основ</Part>
+        <Part Number="2">создание клиент-серверного приложения</Part>
+    </Lection>
+</course>
