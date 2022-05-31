@@ -1,0 +1,9 @@
+<person status="student">
+
+    <name>Вера Владимировна</name>
+    <surname>Жуковская</surname>
+    <age>40</age>
+    <homePets>0</homePets>
+    <futurePreferredSalary>согласно региону проживания</futurePreferredSalary>
+
+</person>
