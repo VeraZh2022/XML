@@ -1,1 +1,26 @@
-
+<Report Name="Bug" ID="77">
+    <Title>widget white borders disappeared on top and down if stretching to size H:334/547</Title>
+    <Severity>low</Severity>
+    <Priority>low</Priority>
+    <Environments>  
+       <Environment name="1">Google Pixel 5 API 31 (Android studio emulator)</Environment>
+       <Environment name="2">Pixel 4</Environment>
+       <Environment name="3">Android 11</Environment>
+    </Environments>
+    <Preconditions>
+        <Precondition>verify you have one empty window on the device</Precondition>
+    </Preconditions>
+    <StepsToReproduce>
+        <Step name="1">install and open the AndroidGridTest app</Step>
+        <Step name="2">add 2 widgets</Step>
+        <Step name="3">hange the widgets forms by long tap to size H:334/547</Step>
+    </StepsToReproduce>
+    <Result>
+        <Actual>there aren’t white borders at widgets’s top and down</Actual>   
+        <Expected>all widgets have around white borders</Expected>       
+    </Result> 
+    <Attachments>
+        <Attachment Type="image">grid_data001.png</Attachment>
+        <Attachment Type="image">grid_data002.png</Attachment>
+    </Attachments>
+</Report>
